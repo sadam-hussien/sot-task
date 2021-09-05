@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- swiper slider -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+  <!-- video library  -->
+  <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet" />
+  <!-- aos animation library  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- boostrap css file  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" >
+  <!-- my css file  -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/boxes.css">
+  <title>مؤسسة حلول شبه التصميم – Semi Design Solutions</title>
+</head>
+<body>
+
+  <!-- start header  -->
+  <header class="main-header d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <!-- start logo  -->
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/logo.png" alt="مؤسسة حلول شبه التصميم – Semi Design Solutions" class="img-fluid" >
+        </a>
+      </div>
+      <!-- end logo  -->
+
+      <!-- start nav  -->
+      <nav class="main-nav nav flex-column flex-lg-row" id="main-nav">
+        <a href="" class="nav-link active text-capitalize">home</a>
+        <a href="" class="nav-link text-capitalize">about us</a>
+        <a href="" class="nav-link text-capitalize">digital services</a>
+        <a href="" class="nav-link text-capitalize">our portfolio</a>
+        <a href="" class="nav-link text-capitalize">partners</a>
+        <a href="" class="nav-link text-capitalize">blog</a>
+      </nav>
+      <!-- end nav  -->
+
+      <!-- start header option  -->
+      <div class="header-option">
+        <a href="#" class="toggle-lang text-capitalize header-option-item">AR</a>
+        <a href="#" class="contact-us-btn text-capitalize header-option-item my-btn">contact us</a>
+        <button id="toggle-menu" type="button" class="toggle-menu header-option-item d-lg-none"><ion-icon name="menu-outline"></ion-icon></button>
+      </div>
+      <!-- end header-option  -->
+
+    </div>
+  </header>
+  <!-- end header  -->
+
+  <!-- start landing-section  -->
+  <section class="landing-section">
+    <div class="container">
+      <div class="row">
+        <!-- col  -->
+        <div class="col-lg-6 text-center text-lg-left">
+          <div class="landing-intro-text">
+            <h1 class="landing-intro-title" data-aos="fade-up">We believe that digital world is the solution to all obstacles</h1>
+            <p class="landing-intro-desc main-p" data-aos="fade-right" data-aos-delay="300">Semi-Design Solutions is an information technology company that provides modern solutions for software development, design and development of websites and smart applications, advanced e-commerce solutions, corporate branding, security and access control systems, corporate training, consulting, information technology and digital marketing services.</p>
+            <a href="#" class="my-btn get-started-btn" data-aos="fade-up" data-aos-delay="500">
+              get started
+              <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <!-- col  -->
+        <div class="col" data-aos="fade-up" data-aos-delay="600">
+          <div class="landing-video">
+            <video
+              id="my-video"
+              class="video-js"
+              controls
+              preload="auto"
+              width="100%"
+            >
+              <source src="./assets/video.mp4" type="video/mp4" />
+              <source src="./assets/video.webm" type="video/webm" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank"
+                  >supports HTML5 video</a
+                >
+              </p>
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end landing-section  -->
+
+  <!-- start about-section  -->
+  <section class="about-section pb-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- col  -->
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="about-img">
+            <img src="./assets/about.gif" alt="about" class="img-fluid">
+          </div>
+        </div>
+        <!-- col  -->
+        <div class="col-lg-6 text-center text-lg-left" data-aos="fade-left" data-aos-delay="300">
+          <div class="about-text">
+            <h2 class="about-text-title">ABOUT THE INSTITUTION</h2>
+            <h3 class="about-text-subtitle">Serving all business development needs</h3>
+            <p class="about-text-desc main-p"><i>Semi-Design Solutions</i> is an IT company that offers modern software development solutions, web design and development and smart applications, advanced e-commerce solutions, corporate brands, security and access control systems, corporate training, consulting, information technology and digital marketing services.
+              Our organization provides cost-effective services that enable its</p>
+              <a href="#" class="my-btn">
+                learn more 
+                <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about-section  --> 
+
+  <!-- start services-section  -->
+  <section class="services-section pb-section pt-section">
+    <div class="container">
+      <!-- titlt  -->
+      <div class="title" data-aos="fade-up">
+        <h2 class="title-text text-uppercase">our services</h2>
+        <h3 class="title-subtext text-uppercase">learn about our services</h3>
+      </div>
+      <!-- end title  -->
+
+      <div class="services-content">
+        <div class="boxes">
+          <div class="box-center">
+            <div class="box-inner"></div>
+            <span>
+              <img src="./assets/logo.png" alt="logo" class="img-fluid " >
+              smart of things
+            </span>
+          </div>
+          <div class="box top">
+            <div class="box-inner"></div>
+            <span>
+              <img src="./assets/vagueness.png" alt="hosting services" class="img-fluid ser-img">
+              <span class="serv-item-text">Digital Marketing Solutions</span>
+            </span>
+          </div>
+          <div class="box left">
+            <div class="box-inner"></div>
+            <span>
+              <img src="./assets/applications.png" alt="hosting services" class="img-fluid ser-img">
+              <span class="serv-item-text">Mobile App Development</span>
+            </span>
+          </div>
+          <div class="box bottom">
+            <div class="box-inner"></div>
+            <span>
+              <img src="./assets/shopping.png" alt="hosting services" class="img-fluid ser-img">
+              <span class="serv-item-text">Hosting Services</span>
+            </span>
+          </div>
+          <div class="box right">
+            <div class="box-inner"></div>
+            <span>
+              <img src="./assets/applications.png" alt="hosting services" class="img-fluid ser-img">
+              <span class="serv-item-text">Mobile App Development</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end services-section  -->
+
+  <!-- start services-items-section  -->
+  <section class="services-items-section pt-section pb-section">
+    <div class="container-fluid">
+      <div class="row flex-lg-nowrap">
+
+        <!-- col  -->
+        <div class="col" data-aos="fade-up">
+          <div class="serv-item">
+            <a href="#" class="serv-item-inner">
+              <img src="./assets/vagueness.png" alt="hosting services" class="img-fluid">
+              <span class="serv-item-text">Digital Marketing Solutions</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- col  -->
+        <div class="col" data-aos="fade-up" data-aos-delay="100">
+          <div class="serv-item">
+            <a href="#" class="serv-item-inner">
+              <img src="./assets/applications.png" alt="hosting services" class="img-fluid">
+              <span class="serv-item-text">Mobile App Development</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- col  -->
+        <div class="col" data-aos="fade-up" data-aos-delay="200">
+          <div class="serv-item">
+            <a href="#" class="serv-item-inner">
+              <img src="./assets/digital-marketing.png" alt="hosting services" class="img-fluid">
+              <span class="serv-item-text">Hosting Services</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- col  -->
+        <div class="col" data-aos="fade-up" data-aos-delay="300">
+          <div class="serv-item">
+            <a href="#" class="serv-item-inner">
+              <img src="./assets/shopping.png" alt="hosting services" class="img-fluid">
+              <span class="serv-item-text">Hosting Services</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- col  -->
+        <div class="col" data-aos="fade-up" data-aos-delay="400">
+          <div class="serv-item">
+            <a href="#" class="serv-item-inner">
+              <img src="./assets/social-media-marketing.png" alt="hosting services" class="img-fluid">
+              <span class="serv-item-text">Hosting Services</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- col  -->
+        <div class="col" data-aos="fade-up" data-aos-delay="500">
+          <div class="serv-item">
+            <a href="#" class="serv-item-inner">
+              <img src="./assets/applications.png" alt="hosting services" class="img-fluid">
+              <span class="serv-item-text">Hosting Services</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- col  -->
+        <div class="col" data-aos="fade-up" data-aos-delay="600">
+          <div class="serv-item">
+            <a href="#" class="serv-item-inner">
+              <img src="./assets/shopping.png" alt="hosting services" class="img-fluid">
+              <span class="serv-item-text">Hosting Services</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end services-section-items  -->
+
+  <!-- start works-section  -->
+  <section class="works-section pt-section pb-section">
+    <div class="container">
+      <!-- titlt  -->
+      <div class="title" data-aos="fade-up">
+        <h2 class="title-text text-uppercase">our work</h2>
+        <h3 class="title-subtext text-uppercase">Our Latest Creative Work</h3>
+      </div>
+      <!-- end title  -->
+
+      <div class="row">
+
+        <!-- col  -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up">
+          <div class="work-item position-relative">
+            <img src="./assets/work-1.jpg" alt="work" class="img-fluid">
+            <a href="#" class="work-item-details position-absolute">
+              <h4 class="work-item-title">Wahat Al-Mousa</h4>
+              <span class="work-item-type text-capitalize">web sites</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- col  -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="work-item position-relative">
+            <img src="./assets/work-2.png" alt="work" class="img-fluid">
+            <a href="#" class="work-item-details position-absolute">
+              <h4 class="work-item-title">Hisense Air Conditioner</h4>
+              <span class="work-item-type text-capitalize">Graphic design, Social Media</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- col  -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="work-item position-relative">
+            <img src="./assets/work-3.png" alt="work" class="img-fluid">
+            <a href="#" class="work-item-details position-absolute">
+              <h4 class="work-item-title">HIK VISION Security Cams</h4>
+              <span class="work-item-type text-capitalize">Graphic design, Social Media</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- col  -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="work-item position-relative">
+            <img src="./assets/work-4.png" alt="work" class="img-fluid">
+            <a href="#" class="work-item-details position-absolute">
+              <h4 class="work-item-title">Cottonil Mercerise</h4>
+              <span class="work-item-type text-capitalize">Graphic design, Social Media</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- col  -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="work-item position-relative">
+            <img src="./assets/work-5.jpg" alt="work" class="img-fluid">
+            <a href="#" class="work-item-details position-absolute">
+              <h4 class="work-item-title">AL Fozan Industries</h4>
+              <span class="work-item-type text-capitalize">Web Sites</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- col  -->
+        <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="work-item position-relative">
+            <img src="./assets/work-6.jpg" alt="work" class="img-fluid">
+            <a href="#" class="work-item-details position-absolute">
+              <h4 class="work-item-title">ALBABTAIN FOODS</h4>
+              <span class="work-item-type text-capitalize">Web Sites</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <a href="#" class="my-btn work-load-more-btn">show more <ion-icon name="chevron-forward-outline" class="icon"></ion-icon></a>
+      </div>
+    </div>
+  </section>
+  <!-- end works-section  -->
+
+  <!-- start customer-section  -->
+  <section class="customer-section pt-section pb-section">
+    <div class="container">
+       <!-- titlt  -->
+       <div class="title" data-aos="fade-up">
+        <h2 class="title-text text-uppercase">our happy customer</h2>
+        <h3 class="title-subtext text-uppercase">Some of our Clients</h3>
+      </div>
+      <!-- end title  -->
+
+      <div class="customer-items">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- item  -->
+            <div class="swiper-slide">
+              <div class="customer-item">
+                <img src="./assets/customer-1.png" alt="logo name" class="img-fluid">
+              </div>
+            </div>
+            
+            <!-- item  -->
+            <div class="swiper-slide">
+              <div class="customer-item">
+                <img src="./assets/customer-2.png" alt="logo name" class="img-fluid">
+              </div>
+            </div>
+            
+            <!-- item  -->
+            <div class="swiper-slide">
+              <div class="customer-item">
+                <img src="./assets/customer-3.png" alt="logo name" class="img-fluid">
+              </div>
+            </div>
+            
+            <!-- item  -->
+            <div class="swiper-slide">
+              <div class="customer-item">
+                <img src="./assets/customer-4.png" alt="logo name" class="img-fluid">
+              </div>
+            </div>
+            
+            <!-- item  -->
+            <div class="swiper-slide">
+              <div class="customer-item">
+                <img src="./assets/customer-5.png" alt="logo name" class="img-fluid">
+              </div>
+            </div>
+            
+            <!-- item  -->
+            <div class="swiper-slide">
+              <div class="customer-item">
+                <img src="./assets/customer-6.png" alt="logo name" class="img-fluid">
+              </div>
+            </div>
+            
+            <!-- item  -->
+            <div class="swiper-slide">
+              <div class="customer-item">
+                <img src="./assets/customer-7.png" alt="logo name" class="img-fluid">
+              </div>
+            </div>
+            
+            <!-- item  -->
+            <div class="swiper-slide">
+              <div class="customer-item">
+                <img src="./assets/customer-8.png" alt="logo name" class="img-fluid">
+              </div>
+            </div>
+            
+            <!-- item  -->
+            <div class="swiper-slide">
+              <div class="customer-item">
+                <img src="./assets/customer-9.png" alt="logo name" class="img-fluid">
+              </div>
+            </div>
+
+          </div>
+          
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end customer-section  -->
+
+  <!-- start footer  -->
+  <footer class="pt-section pb-section">
+    <div class="container">
+      <div class="row">
+
+        <!-- col  -->
+        <div class="col-lg-3">
+          <div class="footer-part">
+            <div class="footer-part-head">
+              <img src="./assets/logo.png" alt="logo" class="img-fluid">
+            </div>
+            <div class="footer-part-body">
+              <p class="footer-about-desc main-p">Semi Design Solutions is an Information Technology Company providing Software Development, Web Design & Development, E-Commerce Solutions, Corporate Branding, Security & Access Control Systems, Corporate Training, IT Consulting and many Digital Services.</p>
+            </div>
+          </div>
+        </div>
+
+         <!-- col  -->
+         <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="footer-part">
+            <div class="footer-part-head">
+              <h5 class="footer-part-head-title text-capitalize">important links</h5>
+            </div>
+            <div class="footer-part-body">
+              <a href="#" class="footer-part-body-link">about us</a>
+              <a href="#" class="footer-part-body-link">privacy policy</a>
+            </div>
+          </div>
+        </div>
+        
+         <!-- col  -->
+         <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="footer-part">
+            <div class="footer-part-head">
+              <h5 class="footer-part-head-title text-capitalize">Contact Us</h5>
+            </div>
+            <div class="footer-part-body">
+              <ul class="list-unstyled m-0 p-0">
+                <!-- box  -->
+                <li class="d-flex footer-part-body-contact-item">
+                  <ion-icon class="icon" name="mail-outline"></ion-icon>
+                  <div class="box">
+                    <h6 class="box-title text-capitalize">email</h6>
+                    <a class="box-response" href="mailto:server@sds-sa.net">server@sds-sa.net</a>
+                  </div>
+                </li>
+
+                <!-- box  -->
+                <li class="d-flex footer-part-body-contact-item">
+                  <ion-icon class="icon" name="call-outline"></ion-icon>
+                  <div class="box">
+                    <h6 class="box-title text-capitalize">phone</h6>
+                    <a class="box-response" href="tel:0556430630">0556430630</a>
+                  </div>
+                </li>
+
+                <!-- box  -->
+                <li class="d-flex footer-part-body-contact-item">
+                  <ion-icon class="icon loc" name="location-outline"></ion-icon>
+                  <div class="box">
+                    <h6 class="box-title text-capitalize">address</h6>
+                    <span class="box-response">Dharat Laban - Exit 34 Sahali Complex - Floor 2 - Office 2, Riyadh</span>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- col  -->
+        <div class="col-md-4 col-lg-3">
+          <div class="footer-part">
+            <div class="footer-part-head">
+              <h5 class="footer-part-head-title text-capitalize">social media</h5>
+            </div>
+            <div class="footer-part-body">
+              <ion-icon class="face icon-social" name="logo-facebook"></ion-icon>
+              <ion-icon class="inst icon-social" name="logo-instagram"></ion-icon>
+              <ion-icon class="whats icon-social" name="logo-whatsapp"></ion-icon>
+              <ion-icon class="twit icon-social" name="logo-twitter"></ion-icon>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer-footer">
+        <hr />
+        <p class="copyright m-0 text-center">All CopyRights Saved &copy; 2021</p>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer  -->
+
+
+  <!-- jquery  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- swiper  -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- video-library  -->
+  <script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
+  <!-- aos animation library  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- bootstrap js  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- icon library (ionicons) -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- my js file  -->
+  <script src="./js/main.js"></script>
+</body>
+</html>

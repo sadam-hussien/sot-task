@@ -1,0 +1,205 @@
+.services-content {
+  -webkit-animation: rotation 11s infinite;
+  animation: rotation 11s infinite;
+  transform-origin: center;
+}
+
+.services-content:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+@-webkit-keyframes rotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.boxes {
+  min-height: calc(100vh - 70px);
+  position: relative;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.boxes .ser-img {
+  max-width: 40px;
+}
+
+.boxes .box > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
+  text-align: center;
+}
+
+.boxes .box-center {
+  width: 170px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  border-radius: 50%;
+  /* border: red solid; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boxes .box {
+  width: 170px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  border-radius: 50%;
+}
+
+.boxes .box.top {
+  background: linear-gradient(to top, transparent 20%, orange 20%, yellow);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -136px;
+  margin-left: -42px;
+}
+
+.boxes .box.left {
+  background: linear-gradient(to left, transparent 20%, orange 20%, yellow);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 57px;
+  margin-left: -180px;
+}
+
+.boxes .box.bottom {
+  background: linear-gradient(to bottom, transparent 20%, orange 20%, yellow);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 170px;
+  margin-left: 20px;
+}
+
+.boxes .box.right {
+  background: linear-gradient(to right, transparent 20%, orange 20%, yellow);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -18px;
+  margin-left: 160px;
+}
+
+.boxes .box span {
+  position: relative;
+  z-index: 3;
+}
+
+.boxes .box::before {
+  content: "";
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  right: 3px;
+  bottom: 2.5px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+/* line  */
+.boxes .box .box-inner {
+  position: absolute;
+  width: 100px;
+  height: 2.5px;
+  background: linear-gradient(to right, orange, yellow);
+}
+
+.boxes .box.top .box-inner {
+  bottom: 20%;
+  left: calc(100% - 18px);
+  transform: rotate(45deg);
+  transform-origin: left;
+}
+
+.boxes .box.left .box-inner {
+  top: 11%;
+  left: calc(100% - 35px);
+  transform: rotate(-45deg);
+  transform-origin: left;
+}
+
+.boxes .box.bottom .box-inner {
+  top: -22%;
+  right: calc(100% - 50px);
+  transform: rotate(45deg);
+  transform-origin: left;
+  background: linear-gradient(to right, yellow, orange);
+}
+
+.boxes .box.right .box-inner {
+  bottom: -31%;
+  right: calc(100% - 63px);
+  transform: rotate(-45deg);
+  transform-origin: left;
+  background: linear-gradient(to right, yellow, orange);
+}
+
+/* arrow  */
+.boxes .box .box-inner::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 3px solid yellow;
+  position: absolute;
+}
+
+.boxes .box.top .box-inner::before {
+  top: -5px;
+  right: 0px;
+  border-left: transparent;
+  border-bottom: transparent;
+  transform: rotate(45deg);
+}
+
+.boxes .box.left .box-inner::before {
+  top: -6px;
+  right: 0px;
+  border-left: transparent;
+  border-bottom: transparent;
+  transform: rotate(45deg);
+}
+
+.boxes .box.bottom .box-inner::before {
+  bottom: -6px;
+  left: 0px;
+  border-right: transparent;
+  border-top: transparent;
+  transform: rotate(45deg);
+}
+
+.boxes .box.right .box-inner::before {
+  bottom: -6px;
+  left: 0px;
+  border-right: transparent;
+  border-top: transparent;
+  transform: rotate(45deg);
+}
